@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para as perguntas e respostas */
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Adiciona transição suave para a animação */
+}
+
+.arrow.active {
+    transform: rotate(90deg);
+}
+
+.question-text {
+    flex: 1;
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+.answer.active {
+    display: block;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
