@@ -5,13 +5,22 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
+    justify-content: center; /* Centraliza verticalmente */
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #8ec79c;
 }
 
-header, footer {
-    background-color: #53a46e;
+.container {
+    width: 100%;
+    max-width: 800px; /* Define uma largura máxima para os containers */
     padding: 20px;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.header-container, .footer-container {
+    background-color: #f8faf9;
     text-align: center;
 }
 
@@ -29,40 +38,26 @@ h1 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
 }
 
-main {
-    flex: 1;
-    padding: 20px;
+.links-container, .social-links-container {
+    margin-top: 20px; /* Espaçamento entre containers */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Centraliza a lista */
+    margin: 0;
+    width: 100%;
+    max-width: 400px; /* Define uma largura máxima para os botões */
 }
 
 li {
     margin: 10px 0;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.social-icon {
-    width: 24px;
-    height: 24px;
-}
-
-/* Estilos para os links transformados em botões */
 a.button {
     display: block;
     padding: 15px 20px;
@@ -74,21 +69,31 @@ a.button {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s; /* Animação de transição */
-    max-width: 300px; /* Define a largura máxima para os botões */
     margin: 0 auto; /* Centraliza o botão */
 }
 
-/* Estilos para o hover dos botões */
+a.button.small-width {
+    max-width: 200px; /* Define a largura máxima para os botões */
+}
+
 a.button:hover {
     background-color: #0056b3; /* Cor do botão ao passar o mouse */
 }
 
-.social-icon {
+.social-links-list {
+    display: flex;
     justify-content: center; /* Centraliza os ícones horizontalmente */
     flex-wrap: wrap; /* Permite que os ícones quebrem linha se necessário */
     padding: 0;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px; /* Espaçamento entre as imagens */
+    margin: 10px 0;
+}
+
+.social-links-list li {
+    margin: 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
     vertical-align: middle; /* Alinha verticalmente as imagens ao meio */
 }

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const fullName = data.name.split(' ');
             const firstName = fullName.slice(0, -1).join(' ');
             const lastName = fullName.slice(-1).join(' ');
-            document.getElementById('name').innerHTML = `${firstName} <strong>${lastName}</strong>`;
+            document.getElementById('name').innerHTML = `${firstName} <b>${lastName}</b>`;
 
             document.getElementById('description').textContent = data.description;
 
