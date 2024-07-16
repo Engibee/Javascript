@@ -1,0 +1,14 @@
+{
+    "name": "Vinicius Louzada",
+    "avatar": "imagens/viniballs.jpg",
+    "description": "Pixel artist, Programmer, Computer Engineering, Game dev.",
+    "links": [
+        {"name": "Google", "url": "https://www.google.com"},
+        {"name": "YouTube", "url": "https://www.youtube.com"},
+        {"name": "GitHub", "url": "https://www.github.com"}
+    ],
+    "socialLinks": [
+        {"name": "Twitter", "url": "https://twitter.com/seu_perfil", "icon": "imagens/twitter.png"},
+        {"name": "LinkedIn", "url": "https://linkedin.com/in/seu_perfil", "icon": "imagens/linkedin.png"}
+    ]
+}
