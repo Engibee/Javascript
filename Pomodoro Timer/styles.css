@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tempo{
+    width: 100%; /* Defina uma largura */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: lightblue; /* Apenas para visualização */
+    text-align: center; /* Centraliza o texto dentro do div */
+    font-size: 100px;
+}
+
+.buttons{
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento à direita do botão */
+    padding: 10px 20px;
+}
+
+#start{
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+#pause{
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+#restart{
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+#tempo .milliseconds{
+    font-size: 24px;
+}

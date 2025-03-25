@@ -23,6 +23,10 @@ h1 {
     color: #333;
 }
 
+#ex2 {
+    color:#ff0000
+}
+
 /* Estilos para as perguntas e respostas */
 .faq-item {
     border-bottom: 1px solid #ccc;
